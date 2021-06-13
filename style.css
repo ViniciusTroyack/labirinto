@@ -1,0 +1,41 @@
+#jogo{
+    background-image: url('img/ground.jpg');
+    background-size: contain;
+}
+
+.linha{
+    display: flex;
+}
+
+.parede{
+    width: 2vw;
+    height: 4vh;
+    background: url('img/wall.jpg');
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.espaco{
+    width: 2vw;
+    height: 4vh;
+}
+
+.jogador{
+    width: 2vw;
+    height: 4vh;
+    background-image: url('img/right.png');
+    background-size: cover;
+}
+
+.final{
+    width: 2vw;
+    height: 4vh;
+    background: url('img/bau.jpg');
+    background-size: cover;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
